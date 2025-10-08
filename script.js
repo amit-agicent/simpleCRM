@@ -1,7 +1,7 @@
 // =====================================================================
 // !! IMPORTANT: REPLACE THE URL BELOW WITH YOUR DEPLOYED WEB APP URL !!
 // =====================================================================
-const APP_SCRIPT_URL = 'https://script.google.com/a/macros/agicent.com/s/AKfycby6pi7txrYUwdBIRg5HexjPj3L0MvLbgNFde25DjA2Z/dev'; 
+const APP_SCRIPT_URL = 'https://script.google.com/a/macros/agicent.com/s/AKfycbyRtjVQez51glY1GzD0jrabys7He7cFrMMatf_ACtscoSFYdsfAJgj1yeuz4YnyaAWClw/exec'; 
 // =====================================================================
 
 const form = document.getElementById('prospectForm');
