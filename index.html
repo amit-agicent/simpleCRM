@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Prospect CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Prospect Entry CRM</h1>
+        <p class="subtitle">Quickly log new connections.</p>
+
+        <form id="prospectForm">
+            
+            <div class="input-group">
+                <label for="dateConnected">Date of Connection *</label>
+                <input type="date" id="dateConnected" name="DateConnected" required>
+            </div>
+
+            <div class="input-group">
+                <label for="prospectName">Prospect Name *</label>
+                <input type="text" id="prospectName" name="ProspectName" placeholder="Elon Musk" required>
+            </div>
+
+            <div class="input-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="Title" placeholder="CEO">
+            </div>
+            
+            <div class="input-group">
+                <label for="location">Location</label>
+                <select id="location" name="Location">
+                    <option value="">-- Select Location --</option>
+                    <optgroup label="USA States">
+                        </optgroup>
+                    <optgroup label="Other Countries">
+                        <option value="Canada">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="India">India</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Other">Other</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="followUpDate">Follow-up Date</label>
+                <input type="date" id="followUpDate" name="FollowUpDate">
+            </div>
+
+            <button type="submit" id="submitBtn">Save Prospect</button>
+            <p id="message" class="message"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
